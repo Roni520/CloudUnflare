@@ -1,7 +1,7 @@
 #!/bin/bash
 # CloudUnflare
 
-CompleteDNS_Login='email@mail.com|password'
+CompleteDNS_Login='email0@mail.com|password'
 
 if [[ -z $(command -v dig) ]]; then
 	echo " ERROR: \"dig\" command not found"
